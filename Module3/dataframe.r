@@ -16,5 +16,3 @@ df <- rbind(abc_df, cbs_df)
 
 plot <- ggplot(df, aes(x = candidate, y = poll_result, fill = pollster)) +
   geom_bar(stat = "identity", position = "dodge")
-
-plot
