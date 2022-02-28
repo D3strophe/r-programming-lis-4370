@@ -8,4 +8,4 @@ sum_subtraction <- A - B
 matrix_1 <- diag(c(4, 1, 2, 3))
 
 matrix_2 <- diag(c(3,3,3,3,3), 5, 5)
-matrix_2[,1] <- c(3,2,2,2,2) 
+# matrix_2[,1] <- c(3,2,2,2,2) 
