@@ -1,0 +1,41 @@
+---
+title: "Module 12 - Final Project Discussion in R Markdown"
+author: "Kapil Patel"
+date: "4/10/2022"
+output: html_document
+---
+
+
+### Introduction
+
+The code for this assignment can be found at the following [link](https://github.com/D3strophe/r-programming-lis-4370/tree/main/Module12).
+
+I have used markdown extensively for the past decade or so as most internet forums tend to have a markdown friendly
+editor.
+
+For my Final Project I intend to make visualizing tweets into word graphs a relatively trivial affair. I'm not sure of a real life problem that this solves, but I can imagine something like this being useful if you wanted to automate the passive-monitoring of twitter replies/mentions.
+
+I don't have my code to a degree where I am comfortable sharing it yet so I've instead opted to provide a few high-level algorithms for some planned functions.
+
+
+### Algorithms
+
+#### ```get_main_tweet(url)```
+  1. Authenticate with the twitter REST API. 
+  2. Read given url.
+  3. Extract necessary data (cleaning step)
+  4. No return
+
+#### ```get_sentiment(tweet)```
+  1. Take tokens/tibble as input
+  2. Check tokens against word list
+  3. Return sentiment
+
+#### ```get_graph(tweet)```
+  1. Take tokens/tibble as input
+  2. ggplot()
+  3. return plot
+
+
+##### **Sidenote**: You will notice this blog is different from my previous posts, that is because I've opted to use RMarkdown's generated HTML. 
+
